@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Diseño Gráfico",
+    "titleHighlight": "Creativo",
+    "titleEnd": "& Profesional",
+    "description": "Me considero una persona creativa que ve mis fracasos como escalones hacia el éxito. Soy responsable y detallista, especializada en branding, diseño editorial y redes sociales.",
+    "portfolioButton": "Ver Portafolio",
+    "contactButton": "Contactar"
+  },
+  "portfolio": {
+    "title": "Mi Portafolio",
+    "description": "Una selección de mis mejores trabajos en diseño gráfico, branding, editorial y redes sociales.",
+    "modal": {
+      "category": "Categoría",
+      "client": "Cliente",
+      "year": "Año",
+      "description": "Descripción del Proyecto"
+    },
+    "items": [
+      {
+        "title": "Branding Corporativo",
+        "category": "Branding",
+        "description": "Desarrollo de identidad corporativa completa, incluyendo logotipo, paleta de colores, tipografía y aplicaciones de marca.",
+        "client": "Industrias Jade",
+        "year": "2017"
+      },
+      {
+        "title": "Campaña para Redes Sociales",
+        "category": "RRSS",
+        "description": "Desarrollo de campaña para redes sociales, incluyendo diseño de posts, historias y banners promocionales.",
+        "client": "Lopnna / Idenna",
+        "year": "2020"
+      },
+      {
+        "title": "Diseño Editorial",
+        "category": "Editorial",
+        "description": "Diseño y maquetación de catálogos y manuales, incluyendo portada, contraportada y páginas interiores.",
+        "client": "UNEXCA",
+        "year": "2023"
+      },
+      {
+        "title": "Diseño Web",
+        "category": "Web",
+        "description": "Diseño de banners web y elementos gráficos para sitio web corporativo.",
+        "client": "Espacio Chuleta",
+        "year": "2022"
+      },
+      {
+        "title": "Diseño Textil",
+        "category": "Textil",
+        "description": "Diseño de patrones y gráficos para aplicación en productos textiles.",
+        "client": "Industrias Jade",
+        "year": "2017"
+      },
+      {
+        "title": "Identidad Visual",
+        "category": "Branding",
+        "description": "Desarrollo de logotipo y sistema de identidad visual para empresa.",
+        "client": "Freelance",
+        "year": "2019"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "description": "Estas son las herramientas y habilidades que he perfeccionado a lo largo de mi carrera como diseñadora gráfica.",
+    "categories": [
+      {
+        "title": "Diseño Gráfico",
+        "skills": [
+          { "name": "Adobe Photoshop", "level": 95 },
+          { "name": "Adobe Illustrator", "level": 90 },
+          { "name": "Adobe InDesign", "level": 85 }
+        ]
+      },
+      {
+        "title": "Diseño Web",
+        "skills": [
+          { "name": "UI Design", "level": 85 },
+          { "name": "Figma", "level": 80 },
+          { "name": "HTML/CSS", "level": 70 }
+        ]
+      },
+      {
+        "title": "Redes Sociales",
+        "skills": [
+          { "name": "Diseño de Posts", "level": 95 },
+          { "name": "Estrategia de Contenido", "level": 85 },
+          { "name": "Community Management", "level": 80 }
+        ]
+      },
+      {
+        "title": "Branding",
+        "skills": [
+          { "name": "Identidad Corporativa", "level": 95 },
+          { "name": "Logotipos", "level": 90 },
+          { "name": "Aplicaciones de Marca", "level": 85 }
+        ]
+      },
+      {
+        "title": "Editorial",
+        "skills": [
+          { "name": "Maquetación", "level": 90 },
+          { "name": "Catálogos", "level": 85 },
+          { "name": "Manuales", "level": 90 }
+        ]
+      },
+      {
+        "title": "Creatividad",
+        "skills": [
+          { "name": "Conceptualización", "level": 90 },
+          { "name": "Resolución de Problemas", "level": 85 },
+          { "name": "Innovación", "level": 85 }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "description": "Mi trayectoria profesional en el mundo del diseño gráfico.",
+    "items": [
+      {
+        "title": "Coordinadora de Diseño",
+        "company": "UNEXCA",
+        "period": "2023 - 2024",
+        "description": "Desarrollo de contenido para redes sociales (RRSS), catálogos, banners, logotipos, branding y flyers."
+      },
+      {
+        "title": "Diseñadora Gráfica",
+        "company": "Espacio Chuleta",
+        "period": "2022",
+        "description": "Creación de contenido para redes sociales, logotipos, flyers, banners web, branding y community management."
+      },
+      {
+        "title": "Coordinadora de Diseño",
+        "company": "Lopnna / Idenna",
+        "period": "2019 - 2021",
+        "description": "Gestión de redes sociales, diseño de catálogos, manuales, desarrollo de branding, logotipos y flyers."
+      },
+      {
+        "title": "Freelancer",
+        "company": "Diseñadora Gráfica",
+        "period": "2019",
+        "description": "Desarrollo de contenido para redes sociales, creación de logotipos y branding para diversos clientes."
+      },
+      {
+        "title": "Diseñadora",
+        "company": "Industrias Jade",
+        "period": "2017",
+        "description": "Desarrollo de branding, diseño textil, catálogos, banners y contenido para redes sociales."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Tienes un proyecto en mente? Contáctame y hablemos sobre cómo puedo ayudarte.",
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Email",
+      "phone": "Teléfono",
+      "location": "Ubicación",
+      "portfolio": "Portfolio",
+      "social": "También puedes encontrarme en las redes sociales donde comparto mi trabajo y proceso creativo."
+    },
+    "form": {
+      "title": "Envíame un Mensaje",
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "success": "¡Mensaje enviado con éxito! Te responderé lo antes posible."
+    }
+  },
+  "footer": {
+    "description": "Diseñadora gráfica profesional especializada en branding, diseño editorial y redes sociales con experiencia en coordinación de equipos de diseño.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "servicesList": ["Diseño de Marca", "Diseño Editorial", "Redes Sociales", "Diseño Web", "Diseño Textil"],
+    "rights": "Todos los derechos reservados."
+  },
+  "theme": {
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
+  },
+  "language": {
+    "es": "Español",
+    "en": "Inglés"
+  }
+}
