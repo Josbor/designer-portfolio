@@ -1,0 +1,412 @@
+{
+  "nav": {
+    "home": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "portfolio": {
+      "en": "Portfolio",
+      "es": "Portafolio"
+    },
+    "skills": {
+      "en": "Skills",
+      "es": "Habilidades"
+    },
+    "experience": {
+      "en": "Experience",
+      "es": "Experiencia"
+    },
+    "contact": {
+      "en": "Contact",
+      "es": "Contacto"
+    }
+  },
+  "hero": {
+    "en": {
+      "title": "Graphic Design",
+      "titleHighlight": "Creative",
+      "titleEnd": "& Professional",
+      "description": "I consider myself a creative person who sees my failures as steps towards success. I am responsible and detail-oriented, specialized in branding, editorial design, and social media.",
+      "portfolioButton": "View Portfolio",
+      "contactButton": "Contact Me"
+    },
+    "es": {
+      "title": "Diseño Gráfico",
+      "titleHighlight": "Creativo",
+      "titleEnd": "& Profesional",
+      "description": "Me considero una persona creativa que ve mis fracasos como escalones hacia el éxito. Soy responsable y detallista, especializada en branding, diseño editorial y redes sociales.",
+      "portfolioButton": "Ver Portafolio",
+      "contactButton": "Contactar"
+    }
+  },
+  "portfolio": {
+    "en": {
+      "title": "My Portfolio",
+      "description": "A selection of my best work in graphic design, branding, editorial, and social media.",
+      "modal": {
+        "category": "Category",
+        "client": "Client",
+        "year": "Year",
+        "description": "Project Description"
+      }
+    },
+    "es": {
+      "title": "Mi Portafolio",
+      "description": "Una selección de mis mejores trabajos en diseño gráfico, branding, editorial y redes sociales.",
+      "modal": {
+        "category": "Categoría",
+        "client": "Cliente",
+        "year": "Año",
+        "description": "Descripción del Proyecto"
+      }
+    },
+    "items": [
+      {
+        "title": {
+          "en": "Corporate Branding",
+          "es": "Branding Corporativo"
+        },
+        "category": {
+          "en": "Branding",
+          "es": "Branding"
+        },
+        "description": {
+          "en": "Development of complete corporate identity, including logo, color palette, typography, and brand applications.",
+          "es": "Desarrollo de identidad corporativa completa, incluyendo logotipo, paleta de colores, tipografía y aplicaciones de marca."
+        },
+        "client": "Industrias Jade",
+        "year": "2017"
+      },
+      {
+        "title": {
+          "en": "Social Media Campaign",
+          "es": "Campaña para Redes Sociales"
+        },
+        "category": {
+          "en": "Social Media",
+          "es": "RRSS"
+        },
+        "description": {
+          "en": "Development of social media campaign, including post design, stories, and promotional banners.",
+          "es": "Desarrollo de campaña para redes sociales, incluyendo diseño de posts, historias y banners promocionales."
+        },
+        "client": "Lopnna / Idenna",
+        "year": "2020"
+      },
+      {
+        "title": {
+          "en": "Editorial Design",
+          "es": "Diseño Editorial"
+        },
+        "category": {
+          "en": "Editorial",
+          "es": "Editorial"
+        },
+        "description": {
+          "en": "Design and layout of catalogs and manuals, including cover, back cover, and interior pages.",
+          "es": "Diseño y maquetación de catálogos y manuales, incluyendo portada, contraportada y páginas interiores."
+        },
+        "client": "UNEXCA",
+        "year": "2023"
+      },
+      {
+        "title": {
+          "en": "Web Design",
+          "es": "Diseño Web"
+        },
+        "category": {
+          "en": "Web",
+          "es": "Web"
+        },
+        "description": {
+          "en": "Design of web banners and graphic elements for corporate website.",
+          "es": "Diseño de banners web y elementos gráficos para sitio web corporativo."
+        },
+        "client": "Espacio Chuleta",
+        "year": "2022"
+      },
+      {
+        "title": {
+          "en": "Textile Design",
+          "es": "Diseño Textil"
+        },
+        "category": {
+          "en": "Textile",
+          "es": "Textil"
+        },
+        "description": {
+          "en": "Design of patterns and graphics for application on textile products.",
+          "es": "Diseño de patrones y gráficos para aplicación en productos textiles."
+        },
+        "client": "Industrias Jade",
+        "year": "2017"
+      },
+      {
+        "title": {
+          "en": "Visual Identity",
+          "es": "Identidad Visual"
+        },
+        "category": {
+          "en": "Branding",
+          "es": "Branding"
+        },
+        "description": {
+          "en": "Development of logo and visual identity system for company.",
+          "es": "Desarrollo de logotipo y sistema de identidad visual para empresa."
+        },
+        "client": "Freelance",
+        "year": "2019"
+      }
+    ]
+  },
+  "skills": {
+    "en": {
+      "title": "My Skills",
+      "description": "These are the tools and skills I have perfected throughout my career as a graphic designer."
+    },
+    "es": {
+      "title": "Mis Habilidades",
+      "description": "Estas son las herramientas y habilidades que he perfeccionado a lo largo de mi carrera como diseñadora gráfica."
+    },
+    "categories": [
+      {
+        "title": {
+          "en": "Graphic Design",
+          "es": "Diseño Gráfico"
+        },
+        "skills": [
+          { "name": "Adobe Photoshop", "level": 95 },
+          { "name": "Adobe Illustrator", "level": 90 },
+          { "name": "Adobe InDesign", "level": 85 }
+        ]
+      },
+      {
+        "title": {
+          "en": "Web Design",
+          "es": "Diseño Web"
+        },
+        "skills": [
+          { "name": "UI Design", "level": 85 },
+          { "name": "Figma", "level": 80 },
+          { "name": "HTML/CSS", "level": 70 }
+        ]
+      },
+      {
+        "title": {
+          "en": "Social Media",
+          "es": "Redes Sociales"
+        },
+        "skills": [
+          { "name": "Post Design", "level": 95 },
+          { "name": "Content Strategy", "level": 85 },
+          { "name": "Community Management", "level": 80 }
+        ]
+      },
+      {
+        "title": {
+          "en": "Branding",
+          "es": "Branding"
+        },
+        "skills": [
+          { "name": "Corporate Identity", "level": 95 },
+          { "name": "Logo Design", "level": 90 },
+          { "name": "Brand Applications", "level": 85 }
+        ]
+      },
+      {
+        "title": {
+          "en": "Editorial",
+          "es": "Editorial"
+        },
+        "skills": [
+          { "name": "Layout", "level": 90 },
+          { "name": "Catalogs", "level": 85 },
+          { "name": "Manuals", "level": 90 }
+        ]
+      },
+      {
+        "title": {
+          "en": "Creativity",
+          "es": "Creatividad"
+        },
+        "skills": [
+          { "name": "Conceptualization", "level": 90 },
+          { "name": "Problem Solving", "level": 85 },
+          { "name": "Innovation", "level": 85 }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "en": {
+      "title": "Work Experience",
+      "description": "My professional journey in the world of graphic design."
+    },
+    "es": {
+      "title": "Experiencia Laboral",
+      "description": "Mi trayectoria profesional en el mundo del diseño gráfico."
+    },
+    "items": [
+      {
+        "title": {
+          "en": "Design Coordinator",
+          "es": "Coordinadora de Diseño"
+        },
+        "company": "UNEXCA",
+        "period": "2023 - 2025",
+        "description": {
+          "en": "Development of content for social media, catalogs, banners, logos, branding, and flyers.",
+          "es": "Desarrollo de contenido para redes sociales (RRSS), catálogos, banners, logotipos, branding y flyers."
+        }
+      },
+      {
+        "title": {
+          "en": "Graphic Designer",
+          "es": "Diseñadora Gráfica"
+        },
+        "company": "Espacio Chuleta",
+        "period": "2022",
+        "description": {
+          "en": "Creation of content for social media, logos, flyers, web banners, branding, and community management.",
+          "es": "Creación de contenido para redes sociales, logotipos, flyers, banners web, branding y community management."
+        }
+      },
+      {
+        "title": {
+          "en": "Design Coordinator",
+          "es": "Coordinadora de Diseño"
+        },
+        "company": "Lopnna / Idenna",
+        "period": "2019 - 2021",
+        "description": {
+          "en": "Social media management, design of catalogs, manuals, branding development, logos, and flyers.",
+          "es": "Gestión de redes sociales, diseño de catálogos, manuales, desarrollo de branding, logotipos y flyers."
+        }
+      },
+      {
+        "title": {
+          "en": "Freelancer",
+          "es": "Freelancer"
+        },
+        "company": "Graphic Designer",
+        "period": "2019",
+        "description": {
+          "en": "Development of content for social media, creation of logos and branding for various clients.",
+          "es": "Desarrollo de contenido para redes sociales, creación de logotipos y branding para diversos clientes."
+        }
+      },
+      {
+        "title": {
+          "en": "Designer",
+          "es": "Diseñadora"
+        },
+        "company": "Industrias Jade",
+        "period": "2017",
+        "description": {
+          "en": "Development of branding, textile design, catalogs, banners, and content for social media.",
+          "es": "Desarrollo de branding, diseño textil, catálogos, banners y contenido para redes sociales."
+        }
+      }
+    ]
+  },
+  "contact": {
+    "en": {
+      "title": "Contact",
+      "description": "Do you have a project in mind? Contact me and let's talk about how I can help you.",
+      "info": {
+        "title": "Contact Information",
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location",
+        "portfolio": "Portfolio",
+        "social": "You can also find me on social media where I share my work and creative process."
+      },
+      "form": {
+        "title": "Send Me a Message",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send Message",
+        "success": "Message sent successfully! I will respond as soon as possible."
+      }
+    },
+    "es": {
+      "title": "Contacto",
+      "description": "¿Tienes un proyecto en mente? Contáctame y hablemos sobre cómo puedo ayudarte.",
+      "info": {
+        "title": "Información de Contacto",
+        "email": "Email",
+        "phone": "Teléfono",
+        "location": "Ubicación",
+        "portfolio": "Portfolio",
+        "social": "También puedes encontrarme en las redes sociales donde comparto mi trabajo y proceso creativo."
+      },
+      "form": {
+        "title": "Envíame un Mensaje",
+        "name": "Nombre",
+        "email": "Email",
+        "subject": "Asunto",
+        "message": "Mensaje",
+        "send": "Enviar Mensaje",
+        "success": "¡Mensaje enviado con éxito! Te responderé lo antes posible."
+      }
+    }
+  },
+  "footer": {
+    "en": {
+      "description": "Professional graphic designer specialized in branding, editorial design, and social media with experience in coordinating design teams.",
+      "quickLinks": "Quick Links",
+      "services": "Services",
+      "rights": "All rights reserved."
+    },
+    "es": {
+      "description": "Diseñadora gráfica profesional especializada en branding, diseño editorial y redes sociales con experiencia en coordinación de equipos de diseño.",
+      "quickLinks": "Enlaces Rápidos",
+      "services": "Servicios",
+      "rights": "Todos los derechos reservados."
+    },
+    "servicesList": [
+      {
+        "en": "Brand Design",
+        "es": "Diseño de Marca"
+      },
+      {
+        "en": "Editorial Design",
+        "es": "Diseño Editorial"
+      },
+      {
+        "en": "Social Media",
+        "es": "Redes Sociales"
+      },
+      {
+        "en": "Web Design",
+        "es": "Diseño Web"
+      },
+      {
+        "en": "Textile Design",
+        "es": "Diseño Textil"
+      }
+    ]
+  },
+  "theme": {
+    "light": {
+      "en": "Light mode",
+      "es": "Modo claro"
+    },
+    "dark": {
+      "en": "Dark mode",
+      "es": "Modo oscuro"
+    }
+  },
+  "language": {
+    "es": {
+      "en": "Spanish",
+      "es": "Español"
+    },
+    "en": {
+      "en": "English",
+      "es": "Inglés"
+    }
+  }
+}

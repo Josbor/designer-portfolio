@@ -7,7 +7,7 @@ export default function Navbar ()
 {
   const [ mobileOpen, setMobileOpen ] = useState( false )
   const [ isDark, setIsDark ] = useState( true )
-  const { language, translations, setLanguage } = useLanguage()
+  const { language, t, setLanguage } = useLanguage()
 
 
 
@@ -47,11 +47,11 @@ export default function Navbar ()
   }
 
   const menuItems = [
-    { text: translations.nav.home, href: "#hero" },
-    { text: translations.nav.portfolio, href: "#portfolio" },
-    { text: translations.nav.skills, href: "#skills" },
-    { text: translations.nav.experience, href: "#experience" },
-    { text: translations.nav.contact, href: "#contact" },
+    { text: t( "nav.home" ), href: "#hero" },
+    { text: t( "nav.portfolio" ), href: "#portfolio" },
+    { text: t( "nav.skills" ), href: "#skills" },
+    { text: t( "nav.experience" ), href: "#experience" },
+    { text: t( "nav.contact" ), href: "#contact" },
   ]
 
   return (
@@ -84,7 +84,7 @@ export default function Navbar ()
             <button
               onClick={ () => setLanguage( language === "es" ? "en" : "es" ) }
               className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 transition-colors"
-              aria-label={ language === "es" ? translations.language.en : translations.language.es }
+              aria-label={ language === "es" ? t( "language.en" ) : t( "language.es" ) }
             >
               <Globe className="h-5 w-5 text-pink-600 dark:text-pink-400" />
             </button>
@@ -106,7 +106,7 @@ export default function Navbar ()
           <button
             onClick={ () => setLanguage( language === "es" ? "en" : "es" ) }
             className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 transition-colors"
-            aria-label={ language === "es" ? translations.language.en : translations.language.es }
+            aria-label={ language === "es" ? t( "language.en" ) : t( "language.es" ) }
           >
             <Globe className="h-5 w-5 text-pink-600 dark:text-pink-400" />
           </button>

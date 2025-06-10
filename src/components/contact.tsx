@@ -6,7 +6,7 @@ import { useLanguage } from "../context/language-context"
 
 export default function Contact ()
 {
-  const { translations } = useLanguage()
+  const { t } = useLanguage()
   const [ formData, setFormData ] = useState( {
     name: "",
     email: "",
@@ -45,15 +45,15 @@ export default function Contact ()
     <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-bold text-3xl mb-2 text-gray-800 dark:text-white">{ translations.contact.title }</h2>
-          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">{ translations.contact.description }</p>
+          <h2 className="font-bold text-3xl mb-2 text-gray-800 dark:text-white">{ t( "contact.title" ) }</h2>
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">{ t( "contact.description" ) }</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 max-w-6xl mx-auto">
           <div className="md:col-span-5">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md h-full">
               <h3 className="font-medium text-xl mb-6 text-gray-800 :text-white text-center md:text-left">
-                { translations.contact.info.title }
+                { t( "contact.info.title" ) }
               </h3>
 
               <div className="space-y-6">
@@ -61,7 +61,7 @@ export default function Contact ()
                   <Mail className="text-pink-600 dark:text-pink-400 mr-4 mt-1" />
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.contact.info.email }
+                      { t( "contact.info.email" ) }
                     </h4>
                     <p className="text-gray-800 dark:text-white">sharon.desing24@gmail.com</p>
                   </div>
@@ -71,9 +71,16 @@ export default function Contact ()
                   <Phone className="text-pink-600 dark:text-pink-400 mr-4 mt-1" />
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.contact.info.phone }
+                      { t( "contact.info.phone" ) }
                     </h4>
-                    <p className="text-gray-800 dark:text-white">+58 4244020840</p>
+                    <a
+                      href="https://wa.me/584129079930"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 dark:text-white hover:text-pink-600 dark:hover:text-pink-400 underline"
+                    >
+                      +58 412-9079930
+                    </a>
                   </div>
                 </div>
 
@@ -81,7 +88,7 @@ export default function Contact ()
                   <MapPin className="text-pink-600 dark:text-pink-400 mr-4 mt-1" />
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.contact.info.location }
+                      { t( "contact.info.location" ) }
                     </h4>
                     <p className="text-gray-800 dark:text-white">
                       Caracas - Aurora Corner, Delicias, Don Ricardo Building, 7th floor, apartment 74b, Altagracia
@@ -93,7 +100,7 @@ export default function Contact ()
                   <LinkIcon className="text-pink-600 dark:text-pink-400 mr-4 mt-1" />
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.contact.info.portfolio }
+                      { t( "contact.info.portfolio" ) }
                     </h4>
                     <a
                       href="https://linktr.ee/sharondesing"
@@ -108,7 +115,7 @@ export default function Contact ()
               </div>
 
               <p className="mt-8 text-gray-600 dark:text-gray-400 text-center md:text-left">
-                { translations.contact.info.social }
+                { t( "contact.info.social" ) }
               </p>
             </div>
           </div>
@@ -116,14 +123,14 @@ export default function Contact ()
           <div className="md:col-span-7">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="font-medium text-xl mb-6 text-gray-800 dark:text-white text-center md:text-left">
-                { translations.contact.form.title }
+                { t( "contact.form.title" ) }
               </h3>
 
               <form onSubmit={ handleSubmit } className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                      { translations.contact.form.name }
+                      { t( "contact.form.name" ) }
                     </label>
                     <input
                       id="name"
@@ -137,7 +144,7 @@ export default function Contact ()
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                      { translations.contact.form.email }
+                      { t( "contact.form.email" ) }
                     </label>
                     <input
                       id="email"
@@ -153,7 +160,7 @@ export default function Contact ()
 
                 <div className="space-y-2">
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                    { translations.contact.form.subject }
+                    { t( "contact.form.subject" ) }
                   </label>
                   <input
                     id="subject"
@@ -168,7 +175,7 @@ export default function Contact ()
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                    { translations.contact.form.message }
+                    { t( "contact.form.message" ) }
                   </label>
                   <textarea
                     id="message"
@@ -186,14 +193,14 @@ export default function Contact ()
                     type="submit"
                     className="px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white rounded-lg transition-colors flex items-center dark:bg-pink-500 dark:hover:bg-pink-600"
                   >
-                    { translations.contact.form.send }
+                    { t( "contact.form.send" ) }
                     <Send className="ml-2 h-4 w-4" />
                   </button>
                 </div>
 
                 { success && (
                   <div className="mt-4 p-3 bg-green-100 text-green-800 rounded-md">
-                    { translations.contact.form.success }
+                    { t( "contact.form.success" ) }
                   </div>
                 ) }
               </form>

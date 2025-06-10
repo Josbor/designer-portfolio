@@ -3,7 +3,7 @@ import { useLanguage } from "../context/language-context"
 
 export default function Hero ()
 {
-  const { translations } = useLanguage()
+  const { t } = useLanguage()
 
   return (
     <section id="hero" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
@@ -11,13 +11,13 @@ export default function Hero ()
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="md:w-1/2 space-y-6 text-center md:text-left">
             <h1 className="font-bold text-4xl md:text-5xl text-gray-800 dark:text-white">
-              { translations.hero.title }{ " " }
-              <span className="text-pink-600 dark:text-pink-400">{ translations.hero.titleHighlight }</span>{ " " }
-              { translations.hero.titleEnd }
+              { t( "hero.title" ) }{ " " }
+              <span className="text-pink-600 dark:text-pink-400">{ t( "hero.titleHighlight" ) }</span>{ " " }
+              { t( "hero.titleEnd" ) }
             </h1>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-lg mx-auto md:mx-0 text-center md:text-left">
-              { translations.hero.description }
+              { t( "hero.description" ) }
             </p>
 
             <div className="flex gap-4 pt-4 justify-center md:justify-start">
@@ -25,13 +25,13 @@ export default function Hero ()
                 href="#portfolio"
                 className="px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white rounded-lg transition-colors dark:bg-pink-500 dark:hover:bg-pink-600"
               >
-                { translations.hero.portfolioButton }
+                { t( "hero.portfolioButton" ) }
               </a>
               <a
                 href="#contact"
                 className="px-6 py-3 border border-pink-600 text-pink-600 hover:bg-pink-50 rounded-lg transition-colors dark:border-pink-400 dark:text-pink-400 dark:hover:bg-gray-800"
               >
-                { translations.hero.contactButton }
+                { t( "hero.contactButton" ) }
               </a>
             </div>
           </div>

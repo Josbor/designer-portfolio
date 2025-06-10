@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { X } from "lucide-react"
 import { useLanguage } from "../context/language-context"
-
+import data from "../locales/data.json"
 interface PortfolioItem
 {
   id: number
@@ -16,17 +16,33 @@ interface PortfolioItem
 
 export default function Portfolio ()
 {
-  const { translations } = useLanguage()
+  const { t, language } = useLanguage()
   const [ selectedItem, setSelectedItem ] = useState<PortfolioItem | null>( null )
 
-  const portfolioItems = translations.portfolio.items.map( ( item, index ) => ( {
+  // Asignación lógica de imágenes a cada item del portafolio
+  const portfolioImages = [
+    // 1. Branding Corporativo
+    '/src/assets/gallery/ABRIL-SAAVEDRA.webp',
+    // 2. Campaña para Redes Sociales
+    '/src/assets/gallery/BANNER COSMETICO.webp',
+    // 3. Diseño Editorial
+    '/src/assets/gallery/unexca2024r.webp',
+    // 4. Diseño Web
+    '/src/assets/gallery/PRUEBA1.webp',
+    // 5. Diseño Textil
+    '/src/assets/gallery/Tote Bag Mockup Hanging (1).webp',
+    // 6. Identidad Visual
+    '/src/assets/gallery/v-01.webp',
+  ];
+
+  const portfolioItems = data.portfolio.items.map( ( { title, category, description, client, year }, index: number ) => ( {
     id: index + 1,
-    title: item.title,
-    category: item.category,
-    image: "/placeholder.svg?height=600&width=800",
-    description: item.description,
-    client: item.client,
-    year: item.year,
+    title: title[ language ],
+    category: category[ language ],
+    image: portfolioImages[ index ] || "/placeholder.svg",
+    description: description[ language ],
+    client: client,
+    year: year,
     gridArea: [ "a", "b", "c", "d", "e", "f" ][ index ],
   } ) )
 
@@ -34,8 +50,8 @@ export default function Portfolio ()
     <section id="portfolio" className="py-20 bg-white dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-bold text-3xl mb-2 text-gray-800 dark:text-white">{ translations.portfolio.title }</h2>
-          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">{ translations.portfolio.description }</p>
+          <h2 className="font-bold text-3xl mb-2 text-gray-800 dark:text-white">{ t( "portfolio.title" ) }</h2>
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">{ t( "portfolio.description" ) }</p>
         </div>
 
         {/* Grid creativo para la galería - Versión móvil */ }
@@ -139,19 +155,19 @@ export default function Portfolio ()
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.portfolio.modal.category }
+                      { t( "portfolio.modal.category" ) }
                     </h4>
                     <p className="font-medium text-gray-800 dark:text-white">{ selectedItem.category }</p>
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.portfolio.modal.client }
+                      { t( "portfolio.modal.client" ) }
                     </h4>
                     <p className="font-medium text-gray-800 dark:text-white">{ selectedItem.client }</p>
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
-                      { translations.portfolio.modal.year }
+                      { t( "portfolio.modal.year" ) }
                     </h4>
                     <p className="font-medium text-gray-800 dark:text-white">{ selectedItem.year }</p>
                   </div>
@@ -159,7 +175,7 @@ export default function Portfolio ()
 
                 <div>
                   <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">
-                    { translations.portfolio.modal.description }
+                    { t( "portfolio.modal.description" ) }
                   </h4>
                   <p className="text-gray-600 dark:text-gray-300">{ selectedItem.description }</p>
                 </div>
