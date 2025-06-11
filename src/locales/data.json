@@ -76,7 +76,7 @@
         },
         "client": "Industrias Jade",
         "year": "2017",
-        "image": "/src/assets/gallery/ABRIL-SAAVEDRA.webp"
+        "image": "/gallery/yakumama-final-brochure-walter-001.webp"
       },
       {
         "title": {
@@ -93,7 +93,7 @@
         },
         "client": "Lopnna / Idenna",
         "year": "2020",
-        "image": "/src/assets/gallery/BANNER COSMETICO.webp"
+        "image": "/gallery/BANNER COSMETICO.webp"
       },
       {
         "title": {
@@ -110,7 +110,7 @@
         },
         "client": "UNEXCA",
         "year": "2023",
-        "image": "/src/assets/gallery/unexca2024r.webp"
+        "image": "/gallery/unexca2024r.webp"
       },
       {
         "title": {
@@ -127,7 +127,7 @@
         },
         "client": "Espacio Chuleta",
         "year": "2022",
-        "image": "/src/assets/gallery/PRUEBA1.webp"
+        "image": "/gallery/PRUEBA1.webp"
       },
       {
         "title": {
@@ -144,7 +144,7 @@
         },
         "client": "Industrias Jade",
         "year": "2017",
-        "image": "/src/assets/gallery/Tote Bag Mockup Hanging (1).webp"
+        "image": "/gallery/Tote Bag Mockup Hanging (1).webp"
       },
       {
         "title": {
@@ -161,7 +161,7 @@
         },
         "client": "Freelance",
         "year": "2019",
-        "image": "/src/assets/gallery/v-01.webp"
+        "image": "/gallery/v-01.webp"
       }
     ]
   },

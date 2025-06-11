@@ -42,7 +42,7 @@ export default function Portfolio ()
 
         {/* Grid creativo para la galería - Versión móvil */ }
         <div className="block md:hidden">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto gap-y-6">
             { portfolioItems.map( ( item ) => (
               <div
                 key={ item.id }
@@ -54,9 +54,9 @@ export default function Portfolio ()
                     src={ item.image || "/placeholder.svg" }
                     alt={ item.title }
 
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="object-cover  !w-full !h-full  transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent  transition-opacity duration-300 flex flex-col justify-end p-4">
                     <h3 className="text-white font-medium">{ item.title }</h3>
                     <p className="text-pink-300">{ item.category }</p>
                   </div>
@@ -96,11 +96,11 @@ export default function Portfolio ()
                 style={ { gridArea: item.gridArea } }
                 onClick={ () => setSelectedItem( item ) }
               >
-                <div className="relative w-full h-full">
+                <div className="relative  w-full h-full">
                   <img
+                    className=" md:object-cover  !w-full !h-full transition-transform duration-500 group-hover:scale-110"
                     src={ item.image || "/placeholder.svg" }
                     alt={ item.title }
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
                     <h3 className="text-white font-medium">{ item.title }</h3>
