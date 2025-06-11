@@ -19,27 +19,13 @@ export default function Portfolio ()
   const { t, language } = useLanguage()
   const [ selectedItem, setSelectedItem ] = useState<PortfolioItem | null>( null )
 
-  // Asignación lógica de imágenes a cada item del portafolio
-  const portfolioImages = [
-    // 1. Branding Corporativo
-    '/src/assets/gallery/ABRIL-SAAVEDRA.webp',
-    // 2. Campaña para Redes Sociales
-    '/src/assets/gallery/BANNER COSMETICO.webp',
-    // 3. Diseño Editorial
-    '/src/assets/gallery/unexca2024r.webp',
-    // 4. Diseño Web
-    '/src/assets/gallery/PRUEBA1.webp',
-    // 5. Diseño Textil
-    '/src/assets/gallery/Tote Bag Mockup Hanging (1).webp',
-    // 6. Identidad Visual
-    '/src/assets/gallery/v-01.webp',
-  ];
 
-  const portfolioItems = data.portfolio.items.map( ( { title, category, description, client, year }, index: number ) => ( {
+
+  const portfolioItems = data.portfolio.items.map( ( { title, category, description, client, year, image }, index: number ) => ( {
     id: index + 1,
     title: title[ language ],
     category: category[ language ],
-    image: portfolioImages[ index ] || "/placeholder.svg",
+    image: image || "/placeholder.svg",
     description: description[ language ],
     client: client,
     year: year,

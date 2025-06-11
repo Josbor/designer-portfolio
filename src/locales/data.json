@@ -75,7 +75,8 @@
           "es": "Desarrollo de identidad corporativa completa, incluyendo logotipo, paleta de colores, tipografía y aplicaciones de marca."
         },
         "client": "Industrias Jade",
-        "year": "2017"
+        "year": "2017",
+        "image": "/src/assets/gallery/ABRIL-SAAVEDRA.webp"
       },
       {
         "title": {
@@ -91,7 +92,8 @@
           "es": "Desarrollo de campaña para redes sociales, incluyendo diseño de posts, historias y banners promocionales."
         },
         "client": "Lopnna / Idenna",
-        "year": "2020"
+        "year": "2020",
+        "image": "/src/assets/gallery/BANNER COSMETICO.webp"
       },
       {
         "title": {
@@ -107,7 +109,8 @@
           "es": "Diseño y maquetación de catálogos y manuales, incluyendo portada, contraportada y páginas interiores."
         },
         "client": "UNEXCA",
-        "year": "2023"
+        "year": "2023",
+        "image": "/src/assets/gallery/unexca2024r.webp"
       },
       {
         "title": {
@@ -123,7 +126,8 @@
           "es": "Diseño de banners web y elementos gráficos para sitio web corporativo."
         },
         "client": "Espacio Chuleta",
-        "year": "2022"
+        "year": "2022",
+        "image": "/src/assets/gallery/PRUEBA1.webp"
       },
       {
         "title": {
@@ -139,7 +143,8 @@
           "es": "Diseño de patrones y gráficos para aplicación en productos textiles."
         },
         "client": "Industrias Jade",
-        "year": "2017"
+        "year": "2017",
+        "image": "/src/assets/gallery/Tote Bag Mockup Hanging (1).webp"
       },
       {
         "title": {
@@ -155,7 +160,8 @@
           "es": "Desarrollo de logotipo y sistema de identidad visual para empresa."
         },
         "client": "Freelance",
-        "year": "2019"
+        "year": "2019",
+        "image": "/src/assets/gallery/v-01.webp"
       }
     ]
   },
@@ -178,17 +184,6 @@
           { "name": "Adobe Photoshop", "level": 95 },
           { "name": "Adobe Illustrator", "level": 90 },
           { "name": "Adobe InDesign", "level": 85 }
-        ]
-      },
-      {
-        "title": {
-          "en": "Web Design",
-          "es": "Diseño Web"
-        },
-        "skills": [
-          { "name": "UI Design", "level": 85 },
-          { "name": "Figma", "level": 80 },
-          { "name": "HTML/CSS", "level": 70 }
         ]
       },
       {
