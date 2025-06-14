@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { Menu, Moon, Sun, Globe } from "lucide-react"
 import { useLanguage } from "../context/language-context"
+import Logo from "./logo"
 
 
 export default function Navbar ()
@@ -57,7 +58,10 @@ export default function Navbar ()
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-white/95 backdrop-blur dark:bg-gray-900/95 dark:border-gray-800">
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
-        <div className="font-bold text-xl text-gray-800 dark:text-white">SHARON IBARRA</div>
+        <div className="font-bold text-xl text-gray-800 dark:text-white">
+          <Logo className="inline-block h-8 w-8 mr-2" fill2={ document.documentElement.classList.contains( "dark" ) ? "#00e5e5" : "#06b6d4" } fill1={ document.documentElement.classList.contains( "dark" ) ? "#ec4899" : "#db2777" } />
+          SHARON IBARRA
+        </div>
 
         {/* Desktop Navigation */ }
         <nav className="hidden md:flex items-center gap-6">
